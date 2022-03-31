@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(114, 102, 167);
+}
+
+.wrapper {
+  border: 1px solid rgb(77, 61, 150);
+  padding: 3rem 5rem;
+  background-color: rgb(64, 36, 185);
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+  color: white;
+  width: 100%;
+}

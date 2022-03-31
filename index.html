@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <label for="tagValue">Tageszeit</label>
+        <select name="time" id="time" onchange="daytime()">
+          <option value=""></option>
+          <option value="morgen" id="morgen">Morgen</option>
+          <option value="mittag" id="mittag">Mittag</option>
+          <option value="nacht" id="nacht">Nacht</option>
+        </select>
+      </div>
+    </div>
+    <script>
+      // function daytime() {
+      //   var text = document.getElementById("time").value;
+
+      //   if (text == "morgen") {
+      //     console.log("morgen");
+      //   } else if (text == "mittag") {
+      //     console.log("mittag");
+      //   } else {
+      //     console.log("nacht");
+      //   }
+      // }
+
+      function daytime() {
+        var text = document.getElementById("time").value;
+        console.log(text);
+      }
+    </script>
+  </body>
+</html>
